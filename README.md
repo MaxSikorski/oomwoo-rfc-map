@@ -28,8 +28,7 @@ tracks are **ready to start today** versus which are still blocked.
 ## Feedback / discussion
 
 Proposed to the oomwoo team here →
-**[oomwoo Discussions](https://github.com/makerspet/oomwoo/discussions)**
-*(swap this for the direct thread link once the post is up).*
+**[oomwoo Discussions](https://github.com/makerspet/oomwoo/discussions/7)**
 
 ---
 
