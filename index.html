@@ -40,6 +40,9 @@
   h1,h2,h3{letter-spacing:-0.03em;font-weight:700;line-height:1.1}
   a{color:inherit}
   .wrap{max-width:1120px;margin:0 auto;padding:0 24px 90px}
+  .banner{background:var(--card-bg);border-bottom:1px solid var(--card-border);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px);color:var(--muted);font-size:.8rem;line-height:1.45;text-align:center;padding:10px 18px}
+  .banner b{color:var(--text)}
+  .banner a{color:var(--text);text-decoration:underline;text-underline-offset:2px}
 
   /* nav */
   .nav{display:flex;justify-content:space-between;align-items:center;padding:26px 0 22px;gap:16px;flex-wrap:wrap}
@@ -175,6 +178,7 @@
 </style>
 </head>
 <body data-theme="dark">
+<div class="banner"><b>⚠ Unofficial community prototype</b> — not affiliated with the oomwoo maintainers. Built from the public repo; <a href="https://github.com/makerspet/oomwoo" target="_blank" rel="noopener">makerspet/oomwoo</a> is the source of truth.</div>
 <div class="wrap">
 
   <nav class="nav">
@@ -185,6 +189,7 @@
     <div class="nav-actions">
       <a class="ghost" href="https://github.com/makerspet/oomwoo" target="_blank" rel="noopener">Repo ↗</a>
       <a class="ghost" href="https://github.com/makerspet/oomwoo/blob/main/docs/RFC_MASTER_LIST.md" target="_blank" rel="noopener">RFC list ↗</a>
+      <a class="ghost" href="https://github.com/makerspet/oomwoo/discussions" target="_blank" rel="noopener">💬 Discuss ↗</a>
       <button class="toggle" id="themeBtn" aria-label="Toggle theme">
         <svg id="themeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.36 6.36l-.7-.7M6.34 6.34l-.7-.7m12.72 0l-.7.7M6.34 17.66l-.7.7M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
       </button>
@@ -196,7 +201,7 @@
     <p>oomwoo is an open-source DIY robot vacuum being built in public. There are dozens of modules but most are gated behind frozen specs. This map shows the dependency chain so you can spot the tracks that are <b>unblocked right now</b>.</p>
     <div class="note">
       <span class="pill">data as of 2026-06-28</span>
-      <span>Source: <code>RFC_MASTER_LIST.md</code> + <code>assets/rfc-graph.mmd</code>. Numbers computed from the parsed list — verify against the repo before relying on them.</span>
+      <span>Built from <code>RFC_MASTER_LIST.md</code> + <code>assets/rfc-graph.mmd</code>. Counts are parsed from those files and may differ slightly from the doc's own summary — the repo is the source of truth.</span>
     </div>
   </header>
 
